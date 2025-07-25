@@ -5,27 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Property</title>
     <link rel="stylesheet" href="index.css" />
-    <style>
-      .first {
-        line-height: 20px;
-      }
+    <!-- Font Awesome Free CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-      .second {
-        line-height: 12px;
-      }
+    <style>
+     *{
+      margin: 0;
+      padding: 0;
+     }
+     .padded{
+      background-color: red;
+
+      padding: 10px;
+      border: 5px dashed green;
+      margin: 20px;
+
+      height: 50px;
+      width: 50px;
+      box-sizing: border-box;
+    }
+
+      .padded2{
+      background-color: red;
+
+      padding: 10px;
+      border: 5px dashed green;
+      margin: 20px;
+
+      height: 50px;
+      width: 50px;
+      box-sizing: content-box;
+     }
+
     </style>
   </head>
   <body>
-    <div class="first">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, modi
-      dignissimos autem libero praesentium optio! Labore ducimus inventore iure
-      velit.
-    </div>
-    <br />
-    <hr />
-    <div class="second">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, adipisci
-      repellat. Perspiciatis sunt quis eligendi corporis at ullam, sapiente eos.
-    </div>
+  <div class="padded">
+    padding checker
+  </div>
+
+   <div class="padded2">
+    padding tracker
+  </div>
   </body>
 </html>
